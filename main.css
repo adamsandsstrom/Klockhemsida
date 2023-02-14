@@ -1,0 +1,136 @@
+
+
+/* CSS för klockornas stil */
+.watch {
+    display: inline-block;
+    width: 200px;
+    height: 260px;
+    margin-top: 30px;
+    border: 2px solid #E2BA6B;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    margin-left: 0%;
+    margin-right: 10%;
+    
+}
+  .logoStartsida {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .logoAndrasidor {
+    top:50%;
+    left:50%;
+    
+  }
+  .watch img {
+    width: auto;
+    height: auto;
+  }
+  .watch p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #272727;
+
+  }
+
+  .body_startsida {
+    background: #272727;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+
+  .body_produktsida {
+    margin-top: 300px;
+
+    background: #ededed;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  
+  .navMenu_startsida a {
+    text-align: center;
+    color: #f6f4e6;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .homeicon, .watchicon, .contacticon, .linksicon {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+  }
+    
+  .homeicon img, .watchicon img, .contacticon img, .linksicon img {
+      width: 100px;
+      height: 100px;
+
+  }
+  .nav-item {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    margin-top: 300px;
+  }
+  
+  .nav-item a {
+    display: flex;
+    align-items: center;
+    color: #f6f4e6;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 300px;
+    position: relative;
+    margin-top: 50%;
+    justify-content: center;
+  
+  }
+  
+
+  header{
+    background-color: #272727;
+    width: 100%;
+    height:220px;
+    top:0%;
+    left:0%;
+    position: fixed;
+ 
+  }
+  .navMenu_produktsida {
+    position: absolute;
+    text-align: center;
+
+  }  
+  
+  .navMenu_produktsida a {
+    text-align: center;
+    color: #f6f4e6;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    width: 300px;
+    position: relative;
+    margin-top:65px;
+    
+  }
+  
+
+  .navMenu_startsida a:hover {
+    color: #E2BA6B;
+  }
+  .navMenu_produktsida a:hover {
+    color: #E2BA6B;
+  }
+  
+ 
+  

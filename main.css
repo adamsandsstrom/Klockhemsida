@@ -123,6 +123,29 @@
     margin-top:65px;
     
   }
+  .AdressH1{
+    text-decoration: underline;
+    font-size: 1.8em;
+  }
+  .KontaktH1{
+    text-decoration: underline;
+    margin-top:80px;
+    font-size: 1.8em;
+  }
+  .AdressDiv{
+    text-align: center;
+  }
+  .KontaktDiv{
+    text-align: center;
+  }
+  .Adressinformation{
+    margin-bottom: 40px;
+  }
+
+  .Kontaktinformation{
+    margin-bottom: 50px;
+  }
+
   
 
   .navMenu_startsida a:hover {

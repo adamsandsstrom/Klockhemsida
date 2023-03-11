@@ -1,24 +1,72 @@
 <!DOCTYPE html>
-<html>
-  <html lang="sv">
-    <head>
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Sandwalls Klockor</title>
-      <link rel="stylesheet" href="main.css" />
-      <link rel="icon" href="Icons/mini-logga.PNG" />
-    </head>
-    <body class="body_Index">
-      <header class="navMenu">
-        <div class="logoAndrasidor">
-          <img src="img\Logo.jpg" alt="Logotypen" />
-        </div>
-        <a href="index.html">Hem</a>
-        <a href="HerrKlockor.html">Herr</a>
-        <a href="DamKlockor.html">Dam</a>
-        <a href="Kontakt.html">Kontakt</a>
-      </header>
-    </body>
-  </html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sandwalls Klockor</title>
+    <link rel="stylesheet" href="main.css" />
+
+    <link rel="icon" href="Icons/mini-logga.PNG" />
+  </head>
+  <body class="body">
+    <header class="navMenu">
+      <div class="logoAndrasidor">
+        <img src="img\Logo.jpg" alt="Logotypen" />
+      </div>
+      <a href="index.html">Hem</a>
+      <a href="HerrKlockor.html">Herr</a>
+      <a href="DamKlockor.html">Dam</a>
+      <a href="Kontakt.html">Kontakt</a>
+      <hr class="navLine" />
+    </header>
+
+    <div class="innehåll">
+      <span> Stort sortiment av exklusiva klockor</span>
+      <p>
+        Vi är stolta över att vara en familjeföretag med en lång tradition av
+        att erbjuda de mest eftertraktade klockorna på marknaden. För oss
+        handlar det inte bara om att sälja klockor, det handlar om att skapa
+        minnen och föra vidare en passion för hantverket. Våra klockor är
+        handplockade för att säkerställa högsta kvalitet och exklusivitet. Varje
+        klocka i vår samling har en unik historia och karaktär som vi är glada
+        att dela med våra kunder. Sedan 1946 har vår exklusiva klockbutik varit
+        en destination för klockentusiaster från hela världen.
+      </p>
+      <a href="Kontakt.html" class="btn">Vill du veta mer om oss?</a>
+    </div>
+
+    <p class="h1Hem">Våra populäraste klockor</p>
+
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="img\Rolex-Sub.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="img\AP-Blå.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="img\JL-Reverso.jpg" style="width: 100%" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="img\Luminor-Panerai2.jpg" style="width: 100%" />
+      </div>
+      <div class="mySlides fade">
+        <img src="img\Cartier-Santos.jpg" style="width: 100%" />
+      </div>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>

@@ -209,6 +209,13 @@ header{
   font-size: 2em;
   color:#5a5a5a;
 }
+.h1Kontakt2{
+  margin-top: -25px;
+  color:#5a5a5a;
+
+  font-size: 2.8em;
+
+}
 
 
 
@@ -346,4 +353,95 @@ header{
   font-size: 2.8em;
 
   color:#5a5a5a;
+}
+.footer .box-container{
+  display: flex;
+
+  width: 60%;
+  height: auto;
+  margin-top: 210px;
+  gap:30rem;
+}
+.footer .box-container .box{
+  flex: 1 1 25rem;
+  justify-content: center;
+
+}
+@import url(https://fonts.googleapis.com/css?family=Sofia);
+.footer .box-container .box h3{
+  font-family: 'Sofia', ;
+  color: #333;
+  font-size: 1rem;
+  padding: 1rem 0;
+}
+.footer .box-container .box a{
+  display: block;
+  color: #666;
+  font-size: 1rem;
+  padding: 1rem 0;
+}
+.footer .box-container .box a:hover{
+  color: #cea95d;
+  text-decoration: underline;
+}
+.footer .box-container .box .bild img{
+  margin-top: 150px;
+  max-width: 250px;
+  position: relative;
+  margin: auto;
+}
+.footer .credit{
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  padding-top: 2.5rem;
+  font-size: 1rem;
+  color: var(--grey);
+  border-top: .1rem solid #cea95d;
+}
+.footer .credit span{
+  color: #cea95d;
+}
+
+.Kontakt{
+  margin-top: 200px;
+  }
+
+.Kontakt .row{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 1.5rem;
+  align-items: center;
+  border-top: .1rem solid #cea95d;
+}
+.Kontakt .row form{
+  flex:1 1 40rem;
+  padding:2rem 2.5rem;
+  box-shadow:0 .5rem 1.5rem #292527;
+  border:.1rem solid rgb(0,0,0,.1);
+  background: #fff;
+  border-radius: .5rem;
+}
+.Kontakt .row .image{
+  flex:1 1 40rem;
+}
+.Kontakt .row .image img{
+  width: 100%;
+}
+.Kontakt .row form .box{
+  padding: 1rem;
+  font-size: 1rem;
+  color: #292527;
+  text-transform: none;
+  border: .1rem solid rgba(39, 1, 1, 0.1);
+  border-radius:.5rem;
+  margin:.7rem 0;
+  width: 100%;
+}
+.Kontakt .row form .box:focus{
+  border-color: #cea95d;
+}
+.Kontakt .row form textarea{
+  height: 10rem;
+  resize: none;
 }
